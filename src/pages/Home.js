@@ -1,9 +1,10 @@
 import React from "react"
-import InfoCard from "../components/InfoCard"
+import Jumbotron from "../components/Jumbotron";
+
 
 function Home() {
     return (
-        <InfoCard />
+        <Jumbotron />
     )
 };
 
