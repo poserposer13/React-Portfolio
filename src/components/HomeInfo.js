@@ -1,4 +1,4 @@
-import Image from "react-bootstrap/Image"
+
 import { Row, Col } from "react-bootstrap"
 
 
@@ -7,11 +7,6 @@ function HomeInfo() {
         
 <Row className="bg-dark">
 
-<Col>
-
-    <Image src="public\images\My-Photo.jpg" fluid />
-
-</Col>
 
 <Col className="text-white">
 
