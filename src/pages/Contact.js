@@ -12,16 +12,6 @@ function Contact() {
                         <ContactCard />
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <ContactCard />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <ContactCard />
-                    </Col>
-                </Row>
             </Container>
         </>
     )

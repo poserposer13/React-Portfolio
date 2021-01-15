@@ -5,16 +5,17 @@ import Card from "react-bootstrap/Card"
 function ContactCard() {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
+            <Card className="" style={{ width: '30rem' }}>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title className="text-success">Contact Me!</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted text-primary">Please reach out to me through any of these means</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                       I have listed my LinkedIn, my GitHub, my resume, and my email!
                  </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
+                    <Card.Link href="#">LinkedIn</Card.Link>
+                    <Card.Link href="#">GitHub</Card.Link>
+                    <Card.Link href="#">Email</Card.Link>
+                    <Card.Link href="#">Resume</Card.Link>
                 </Card.Body>
             </Card>
 
