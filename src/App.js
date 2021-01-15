@@ -13,7 +13,7 @@ function App() {
     <Router>
     <div className="App bg-dark">
       <Header />
-      <Route exact path="/">
+      <Route exact path={["/", "/home"]}>
         <Home />
       </Route>
       <Route exact path="/portfolio">
